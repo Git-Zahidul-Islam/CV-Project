@@ -1,0 +1,106 @@
+/*hole body start*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #eee;
+}
+.container{
+    max-width: 1200px;
+    height: 100%;
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 0 auto;
+}
+/*hole body end*/
+
+/* header start */
+.picture{
+    height: 100px;
+    width: 100px;
+    border: 3px solid pink;
+    border-radius: 50px;
+    float: left;
+}
+h1,h2,h3,h4,h5,h6{
+    color: blue;
+}
+.profile-text{
+    float: left;
+    padding: 20px;
+}
+.all-link{
+    float: right;
+    padding: 20px;
+    
+}
+.all-link a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.all-link a:hover{
+ text-decoration: underline;
+ color: tomato;
+ 
+}
+/* header end */
+
+/* div clear and hr start-1 */
+.div-clear{
+    clear: both;
+}
+hr{
+    border: solid black 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+/* div clear and hr end-1 */
+
+#personal-information{
+ 
+}
+.right{
+ float: left;
+ width: 30%;
+}
+.left{
+ float: left;
+ width: 70%;
+}
+.common-hr{
+    border: solid 1px black;
+    border-bottom: none;
+}
+.left-35{
+    float: left;
+    width: 35%;
+    
+}
+.edu-left-div{
+    float: left;
+    width: 45%;
+}
+.edu-right-div{
+    float: right;
+    width: 45%;
+}
+.footer-container{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    
+}
+.footer-container a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+.footer-container a:hover{
+    color: tomato;
+}
+.footer-container p{
+    color: white;
+    margin-top: 10px;
+}
